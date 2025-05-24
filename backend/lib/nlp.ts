@@ -116,7 +116,7 @@ export async function processAbstract(abstractId: number, abstractText: string):
   
   // Store entities in database
   for (const entity of entities) {
-    const entityId = addEntity({
+    const entityId = await addEntity({
       name: entity.name,
       type: entity.type,
       abstractId
@@ -136,7 +136,7 @@ export async function processAbstract(abstractId: number, abstractText: string):
     
     // Store relations in database
     for (const relation of relations) {
-      const relationId = addRelation({
+      const relationId = await addRelation({
         sourceEntityId: relation.sourceEntityId,
         targetEntityId: relation.targetEntityId,
         type: relation.type,

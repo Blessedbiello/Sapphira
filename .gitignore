@@ -1,0 +1,38 @@
+
+# Ignore node_modules directory
+node_modules/
+.DS_Store
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Backend specific ignores (if any)
+backend/node_modules
+backend/build/
+backend/dist/
+backend/.env.local
+
+# Frontend specific ignores (if any)
+frontend/node_modules
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
