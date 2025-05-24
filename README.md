@@ -2,6 +2,9 @@
 
 Saphira is a web application that generates scientific hypotheses based on biological literature and visualizes their support vs. complexity using a percolation plot. It uses a backend powered by Express and SQLite, with a Next.js frontend for user interaction.
 
+![Screenshot From 2025-05-24 02-34-00](https://github.com/user-attachments/assets/1143f590-8262-4017-bd67-a0c401d27a2f)
+
+
 ## Project Structure
 
 
